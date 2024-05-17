@@ -64,6 +64,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
 }
 
 .stat-text {
@@ -83,6 +84,7 @@ body {
 
 .result-container {
     padding-top: 3rem;
+    width: 100%;
 }
 
 .header {
@@ -98,4 +100,5 @@ body {
 .container {
     width: 300px;
     margin: auto;
+    overflow: hidden;
 }
