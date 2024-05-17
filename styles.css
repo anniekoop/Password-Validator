@@ -11,8 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    max-width: 324px;
-    min-width: 264px;
+    width: auto;
     margin-right: auto;
     margin-left: auto;
     margin-top: 2rem;
@@ -84,7 +83,6 @@ body {
 
 .result-container {
     padding-top: 3rem;
-    max-width: 300px;
 }
 
 .header {
@@ -95,4 +93,9 @@ body {
     color: black;
     width: 100%;
     margin-bottom: 3rem;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
 }
