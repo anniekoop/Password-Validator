@@ -84,6 +84,7 @@ body {
 
 .result-container {
     padding-top: 3rem;
+    width: fit-content;
 }
 
 .header {
